@@ -30,7 +30,7 @@ Method name | Description
 `totalUsage` |  Total usage across all apps & users
 `availableData(usercode)` |  Show how much data is still available for use.
 `mostUsedApp(usercode)` |  Return the app the user spend the most money on. Also returned how much was spent ` {app_name : 'Spox', amount : 230} `
-`sendDataToAnotherUser(from_user_code, to_user_code, airtime)` |  Send another user data. You own data should decreas and the users data should increase.
+`sendDataToAnotherUser(from_user_code, to_user_code, airtime)` |  Send another user data. Your own data should decrease and the users data should increase.
 
 The data cost per mb is `R0.09` or `9 cents` per mb for all students.
 
